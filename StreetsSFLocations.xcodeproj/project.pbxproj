@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301DFD5818A8A4DA0052688F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301DFD5518A8A4DA0052688F /* Default-568h@2x.png */; };
+		301DFD5918A8A4DA0052688F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 301DFD5618A8A4DA0052688F /* Default.png */; };
+		301DFD5A18A8A4DA0052688F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 301DFD5718A8A4DA0052688F /* Default@2x.png */; };
+		3028BD4A18A14DD7002989D0 /* delete_sign-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3028BD4918A14DD7002989D0 /* delete_sign-25.png */; };
+		307333A718A412E000BF00FC /* TPXAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 307333A618A412E000BF00FC /* TPXAnnotationView.m */; };
+		307333AB18A4397600BF00FC /* ios7Marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 307333AA18A4397600BF00FC /* ios7Marker.png */; };
+		307333AD18A472DC00BF00FC /* calloutInfoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 307333AC18A472DC00BF00FC /* calloutInfoBtn.png */; };
+		307600AE18BAE58300A79BEE /* placeHolder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 307600AD18BAE58300A79BEE /* placeHolder.jpg */; };
+		30C427F718A80D74009394C8 /* TPXTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C427F618A80D74009394C8 /* TPXTransitionAnimator.m */; };
+		30C85567189D9F2300DC11CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C85566189D9F2300DC11CB /* Foundation.framework */; };
+		30C85569189D9F2300DC11CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C85568189D9F2300DC11CB /* CoreGraphics.framework */; };
+		30C8556B189D9F2300DC11CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C8556A189D9F2300DC11CB /* UIKit.framework */; };
+		30C85571189D9F2300DC11CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30C8556F189D9F2300DC11CB /* InfoPlist.strings */; };
+		30C85573189D9F2300DC11CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C85572189D9F2300DC11CB /* main.m */; };
+		30C85577189D9F2300DC11CB /* TPXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C85576189D9F2300DC11CB /* TPXAppDelegate.m */; };
+		30C8557A189D9F2300DC11CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30C85578189D9F2300DC11CB /* Main.storyboard */; };
+		30C8557F189D9F2300DC11CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C8557E189D9F2300DC11CB /* Images.xcassets */; };
+		30C85586189D9F2300DC11CB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C85585189D9F2300DC11CB /* XCTest.framework */; };
+		30C85587189D9F2300DC11CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C85566189D9F2300DC11CB /* Foundation.framework */; };
+		30C85588189D9F2300DC11CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C8556A189D9F2300DC11CB /* UIKit.framework */; };
+		30C85590189D9F2300DC11CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30C8558E189D9F2300DC11CB /* InfoPlist.strings */; };
+		30C85592189D9F2300DC11CB /* StreetsSFLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C85591189D9F2300DC11CB /* StreetsSFLocationsTests.m */; };
+		30C8559E189DA1C800DC11CB /* TPXConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C8559D189DA1C800DC11CB /* TPXConstants.m */; };
+		30C855A6189DA6A000DC11CB /* TPXSeasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C855A5189DA6A000DC11CB /* TPXSeasonsViewController.m */; };
+		30C855A9189DA9D900DC11CB /* TPXEpisodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C855A8189DA9D900DC11CB /* TPXEpisodeViewController.m */; };
+		30C855AC189DC6A800DC11CB /* TPXMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C855AB189DC6A800DC11CB /* TPXMapViewController.m */; };
+		30C855AF189DC7A500DC11CB /* TPXAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C855AE189DC7A500DC11CB /* TPXAnnotation.m */; };
+		30C855B1189DC7D800DC11CB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C855B0189DC7D800DC11CB /* MapKit.framework */; };
+		30C855B3189DC7DF00DC11CB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C855B2189DC7DF00DC11CB /* CoreLocation.framework */; };
+		30C855B6189E00A400DC11CB /* TPXDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C855B5189E00A400DC11CB /* TPXDetailViewController.m */; };
+		623C43E8E884487297081D0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2992E2EA3C64DCBB583BCB3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30C85589189D9F2300DC11CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30C8555B189D9F2300DC11CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30C85562189D9F2300DC11CB;
+			remoteInfo = StreetsSFLocations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3C557DF6524745B3F0C9F4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		301DFD5518A8A4DA0052688F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		301DFD5618A8A4DA0052688F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		301DFD5718A8A4DA0052688F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3028BD4918A14DD7002989D0 /* delete_sign-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete_sign-25.png"; sourceTree = "<group>"; };
+		307333A518A412E000BF00FC /* TPXAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXAnnotationView.h; sourceTree = "<group>"; };
+		307333A618A412E000BF00FC /* TPXAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXAnnotationView.m; sourceTree = "<group>"; };
+		307333AA18A4397600BF00FC /* ios7Marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios7Marker.png; sourceTree = "<group>"; };
+		307333AC18A472DC00BF00FC /* calloutInfoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calloutInfoBtn.png; sourceTree = "<group>"; };
+		307600AD18BAE58300A79BEE /* placeHolder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeHolder.jpg; sourceTree = "<group>"; };
+		30C427F518A80D74009394C8 /* TPXTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXTransitionAnimator.h; sourceTree = "<group>"; };
+		30C427F618A80D74009394C8 /* TPXTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXTransitionAnimator.m; sourceTree = "<group>"; };
+		30C85563189D9F2300DC11CB /* StreetsSFLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetsSFLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C85566189D9F2300DC11CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30C85568189D9F2300DC11CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30C8556A189D9F2300DC11CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30C8556E189D9F2300DC11CB /* StreetsSFLocations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreetsSFLocations-Info.plist"; sourceTree = "<group>"; };
+		30C85570189D9F2300DC11CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30C85572189D9F2300DC11CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30C85574189D9F2300DC11CB /* StreetsSFLocations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StreetsSFLocations-Prefix.pch"; sourceTree = "<group>"; };
+		30C85575189D9F2300DC11CB /* TPXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPXAppDelegate.h; sourceTree = "<group>"; };
+		30C85576189D9F2300DC11CB /* TPXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPXAppDelegate.m; sourceTree = "<group>"; };
+		30C85579189D9F2300DC11CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30C8557E189D9F2300DC11CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30C85584189D9F2300DC11CB /* StreetsSFLocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreetsSFLocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C85585189D9F2300DC11CB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30C8558D189D9F2300DC11CB /* StreetsSFLocationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreetsSFLocationsTests-Info.plist"; sourceTree = "<group>"; };
+		30C8558F189D9F2300DC11CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30C85591189D9F2300DC11CB /* StreetsSFLocationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreetsSFLocationsTests.m; sourceTree = "<group>"; };
+		30C8559C189DA1C800DC11CB /* TPXConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXConstants.h; sourceTree = "<group>"; };
+		30C8559D189DA1C800DC11CB /* TPXConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXConstants.m; sourceTree = "<group>"; };
+		30C855A4189DA6A000DC11CB /* TPXSeasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXSeasonsViewController.h; sourceTree = "<group>"; };
+		30C855A5189DA6A000DC11CB /* TPXSeasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXSeasonsViewController.m; sourceTree = "<group>"; };
+		30C855A7189DA9D900DC11CB /* TPXEpisodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXEpisodeViewController.h; sourceTree = "<group>"; };
+		30C855A8189DA9D900DC11CB /* TPXEpisodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXEpisodeViewController.m; sourceTree = "<group>"; };
+		30C855AA189DC6A800DC11CB /* TPXMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXMapViewController.h; sourceTree = "<group>"; };
+		30C855AB189DC6A800DC11CB /* TPXMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXMapViewController.m; sourceTree = "<group>"; };
+		30C855AD189DC7A500DC11CB /* TPXAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXAnnotation.h; sourceTree = "<group>"; };
+		30C855AE189DC7A500DC11CB /* TPXAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXAnnotation.m; sourceTree = "<group>"; };
+		30C855B0189DC7D800DC11CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		30C855B2189DC7DF00DC11CB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		30C855B4189E00A400DC11CB /* TPXDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPXDetailViewController.h; sourceTree = "<group>"; };
+		30C855B5189E00A400DC11CB /* TPXDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPXDetailViewController.m; sourceTree = "<group>"; };
+		F2992E2EA3C64DCBB583BCB3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30C85560189D9F2300DC11CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C855B3189DC7DF00DC11CB /* CoreLocation.framework in Frameworks */,
+				30C855B1189DC7D800DC11CB /* MapKit.framework in Frameworks */,
+				30C85569189D9F2300DC11CB /* CoreGraphics.framework in Frameworks */,
+				30C8556B189D9F2300DC11CB /* UIKit.framework in Frameworks */,
+				30C85567189D9F2300DC11CB /* Foundation.framework in Frameworks */,
+				623C43E8E884487297081D0C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C85581189D9F2300DC11CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C85586189D9F2300DC11CB /* XCTest.framework in Frameworks */,
+				30C85588189D9F2300DC11CB /* UIKit.framework in Frameworks */,
+				30C85587189D9F2300DC11CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301DFD5418A8A4DA0052688F /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				301DFD5518A8A4DA0052688F /* Default-568h@2x.png */,
+				301DFD5618A8A4DA0052688F /* Default.png */,
+				301DFD5718A8A4DA0052688F /* Default@2x.png */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		308B849E18A01C8F00DBD0C8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				307600AD18BAE58300A79BEE /* placeHolder.jpg */,
+				301DFD5418A8A4DA0052688F /* Launch */,
+				307333AC18A472DC00BF00FC /* calloutInfoBtn.png */,
+				307333AA18A4397600BF00FC /* ios7Marker.png */,
+				3028BD4918A14DD7002989D0 /* delete_sign-25.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		30C427F418A80D5D009394C8 /* TransitionHelper */ = {
+			isa = PBXGroup;
+			children = (
+				30C427F518A80D74009394C8 /* TPXTransitionAnimator.h */,
+				30C427F618A80D74009394C8 /* TPXTransitionAnimator.m */,
+			);
+			name = TransitionHelper;
+			sourceTree = "<group>";
+		};
+		30C8555A189D9F2300DC11CB = {
+			isa = PBXGroup;
+			children = (
+				30C8556C189D9F2300DC11CB /* StreetsSFLocations */,
+				30C8558B189D9F2300DC11CB /* StreetsSFLocationsTests */,
+				30C85565189D9F2300DC11CB /* Frameworks */,
+				30C85564189D9F2300DC11CB /* Products */,
+				0A3C557DF6524745B3F0C9F4 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		30C85564189D9F2300DC11CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30C85563189D9F2300DC11CB /* StreetsSFLocations.app */,
+				30C85584189D9F2300DC11CB /* StreetsSFLocationsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30C85565189D9F2300DC11CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30C855B2189DC7DF00DC11CB /* CoreLocation.framework */,
+				30C855B0189DC7D800DC11CB /* MapKit.framework */,
+				30C85566189D9F2300DC11CB /* Foundation.framework */,
+				30C85568189D9F2300DC11CB /* CoreGraphics.framework */,
+				30C8556A189D9F2300DC11CB /* UIKit.framework */,
+				30C85585189D9F2300DC11CB /* XCTest.framework */,
+				F2992E2EA3C64DCBB583BCB3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30C8556C189D9F2300DC11CB /* StreetsSFLocations */ = {
+			isa = PBXGroup;
+			children = (
+				30C427F418A80D5D009394C8 /* TransitionHelper */,
+				30C855A3189DA27B00DC11CB /* DetailsViewController */,
+				30C855A1189DA22E00DC11CB /* Annotations */,
+				30C855A2189DA23000DC11CB /* MapViewController */,
+				30C855A0189DA22D00DC11CB /* EpisodesViewController */,
+				30C8559F189DA22B00DC11CB /* SeasonsViewController */,
+				30C8559B189DA1B700DC11CB /* Constants */,
+				30C85578189D9F2300DC11CB /* Main.storyboard */,
+				30C8556D189D9F2300DC11CB /* Supporting Files */,
+			);
+			path = StreetsSFLocations;
+			sourceTree = "<group>";
+		};
+		30C8556D189D9F2300DC11CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				308B849E18A01C8F00DBD0C8 /* images */,
+				30C85575189D9F2300DC11CB /* TPXAppDelegate.h */,
+				30C85576189D9F2300DC11CB /* TPXAppDelegate.m */,
+				30C8557E189D9F2300DC11CB /* Images.xcassets */,
+				30C8556E189D9F2300DC11CB /* StreetsSFLocations-Info.plist */,
+				30C8556F189D9F2300DC11CB /* InfoPlist.strings */,
+				30C85572189D9F2300DC11CB /* main.m */,
+				30C85574189D9F2300DC11CB /* StreetsSFLocations-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30C8558B189D9F2300DC11CB /* StreetsSFLocationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				30C85591189D9F2300DC11CB /* StreetsSFLocationsTests.m */,
+				30C8558C189D9F2300DC11CB /* Supporting Files */,
+			);
+			path = StreetsSFLocationsTests;
+			sourceTree = "<group>";
+		};
+		30C8558C189D9F2300DC11CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30C8558D189D9F2300DC11CB /* StreetsSFLocationsTests-Info.plist */,
+				30C8558E189D9F2300DC11CB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30C8559B189DA1B700DC11CB /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				30C8559C189DA1C800DC11CB /* TPXConstants.h */,
+				30C8559D189DA1C800DC11CB /* TPXConstants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		30C8559F189DA22B00DC11CB /* SeasonsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30C855A4189DA6A000DC11CB /* TPXSeasonsViewController.h */,
+				30C855A5189DA6A000DC11CB /* TPXSeasonsViewController.m */,
+			);
+			name = SeasonsViewController;
+			sourceTree = "<group>";
+		};
+		30C855A0189DA22D00DC11CB /* EpisodesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30C855A7189DA9D900DC11CB /* TPXEpisodeViewController.h */,
+				30C855A8189DA9D900DC11CB /* TPXEpisodeViewController.m */,
+			);
+			name = EpisodesViewController;
+			sourceTree = "<group>";
+		};
+		30C855A1189DA22E00DC11CB /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				30C855AD189DC7A500DC11CB /* TPXAnnotation.h */,
+				30C855AE189DC7A500DC11CB /* TPXAnnotation.m */,
+				307333A518A412E000BF00FC /* TPXAnnotationView.h */,
+				307333A618A412E000BF00FC /* TPXAnnotationView.m */,
+			);
+			name = Annotations;
+			sourceTree = "<group>";
+		};
+		30C855A2189DA23000DC11CB /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30C855AA189DC6A800DC11CB /* TPXMapViewController.h */,
+				30C855AB189DC6A800DC11CB /* TPXMapViewController.m */,
+			);
+			name = MapViewController;
+			sourceTree = "<group>";
+		};
+		30C855A3189DA27B00DC11CB /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				30C855B4189E00A400DC11CB /* TPXDetailViewController.h */,
+				30C855B5189E00A400DC11CB /* TPXDetailViewController.m */,
+			);
+			name = DetailsViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30C85562189D9F2300DC11CB /* StreetsSFLocations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C85595189D9F2300DC11CB /* Build configuration list for PBXNativeTarget "StreetsSFLocations" */;
+			buildPhases = (
+				ACD16D1BAB1142018565E4DB /* Check Pods Manifest.lock */,
+				30C8555F189D9F2300DC11CB /* Sources */,
+				30C85560189D9F2300DC11CB /* Frameworks */,
+				30C85561189D9F2300DC11CB /* Resources */,
+				86BC06F91CA0443998DAD980 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StreetsSFLocations;
+			productName = StreetsSFLocations;
+			productReference = 30C85563189D9F2300DC11CB /* StreetsSFLocations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30C85583189D9F2300DC11CB /* StreetsSFLocationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30C85598189D9F2300DC11CB /* Build configuration list for PBXNativeTarget "StreetsSFLocationsTests" */;
+			buildPhases = (
+				30C85580189D9F2300DC11CB /* Sources */,
+				30C85581189D9F2300DC11CB /* Frameworks */,
+				30C85582189D9F2300DC11CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C8558A189D9F2300DC11CB /* PBXTargetDependency */,
+			);
+			name = StreetsSFLocationsTests;
+			productName = StreetsSFLocationsTests;
+			productReference = 30C85584189D9F2300DC11CB /* StreetsSFLocationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30C8555B189D9F2300DC11CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TPX;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = tinypixel;
+				TargetAttributes = {
+					30C85562189D9F2300DC11CB = {
+						DevelopmentTeam = 4EQ967M39G;
+					};
+					30C85583189D9F2300DC11CB = {
+						TestTargetID = 30C85562189D9F2300DC11CB;
+					};
+				};
+			};
+			buildConfigurationList = 30C8555E189D9F2300DC11CB /* Build configuration list for PBXProject "StreetsSFLocations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30C8555A189D9F2300DC11CB;
+			productRefGroup = 30C85564189D9F2300DC11CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30C85562189D9F2300DC11CB /* StreetsSFLocations */,
+				30C85583189D9F2300DC11CB /* StreetsSFLocationsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30C85561189D9F2300DC11CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307333AD18A472DC00BF00FC /* calloutInfoBtn.png in Resources */,
+				307600AE18BAE58300A79BEE /* placeHolder.jpg in Resources */,
+				301DFD5818A8A4DA0052688F /* Default-568h@2x.png in Resources */,
+				307333AB18A4397600BF00FC /* ios7Marker.png in Resources */,
+				301DFD5A18A8A4DA0052688F /* Default@2x.png in Resources */,
+				3028BD4A18A14DD7002989D0 /* delete_sign-25.png in Resources */,
+				30C8557F189D9F2300DC11CB /* Images.xcassets in Resources */,
+				30C85571189D9F2300DC11CB /* InfoPlist.strings in Resources */,
+				30C8557A189D9F2300DC11CB /* Main.storyboard in Resources */,
+				301DFD5918A8A4DA0052688F /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C85582189D9F2300DC11CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C85590189D9F2300DC11CB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86BC06F91CA0443998DAD980 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD16D1BAB1142018565E4DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30C8555F189D9F2300DC11CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C427F718A80D74009394C8 /* TPXTransitionAnimator.m in Sources */,
+				30C85573189D9F2300DC11CB /* main.m in Sources */,
+				30C855A9189DA9D900DC11CB /* TPXEpisodeViewController.m in Sources */,
+				30C855B6189E00A400DC11CB /* TPXDetailViewController.m in Sources */,
+				30C855AC189DC6A800DC11CB /* TPXMapViewController.m in Sources */,
+				30C8559E189DA1C800DC11CB /* TPXConstants.m in Sources */,
+				30C855AF189DC7A500DC11CB /* TPXAnnotation.m in Sources */,
+				30C85577189D9F2300DC11CB /* TPXAppDelegate.m in Sources */,
+				30C855A6189DA6A000DC11CB /* TPXSeasonsViewController.m in Sources */,
+				307333A718A412E000BF00FC /* TPXAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30C85580189D9F2300DC11CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C85592189D9F2300DC11CB /* StreetsSFLocationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30C8558A189D9F2300DC11CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30C85562189D9F2300DC11CB /* StreetsSFLocations */;
+			targetProxy = 30C85589189D9F2300DC11CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30C8556F189D9F2300DC11CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C85570189D9F2300DC11CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30C85578189D9F2300DC11CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C85579189D9F2300DC11CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30C8558E189D9F2300DC11CB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30C8558F189D9F2300DC11CB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30C85593189D9F2300DC11CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30C85594189D9F2300DC11CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30C85596189D9F2300DC11CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3C557DF6524745B3F0C9F4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreetsSFLocations/StreetsSFLocations-Prefix.pch";
+				INFOPLIST_FILE = "StreetsSFLocations/StreetsSFLocations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30C85597189D9F2300DC11CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3C557DF6524745B3F0C9F4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreetsSFLocations/StreetsSFLocations-Prefix.pch";
+				INFOPLIST_FILE = "StreetsSFLocations/StreetsSFLocations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30C85599189D9F2300DC11CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StreetsSFLocations.app/StreetsSFLocations";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreetsSFLocations/StreetsSFLocations-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StreetsSFLocationsTests/StreetsSFLocationsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30C8559A189D9F2300DC11CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StreetsSFLocations.app/StreetsSFLocations";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StreetsSFLocations/StreetsSFLocations-Prefix.pch";
+				INFOPLIST_FILE = "StreetsSFLocationsTests/StreetsSFLocationsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30C8555E189D9F2300DC11CB /* Build configuration list for PBXProject "StreetsSFLocations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C85593189D9F2300DC11CB /* Debug */,
+				30C85594189D9F2300DC11CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C85595189D9F2300DC11CB /* Build configuration list for PBXNativeTarget "StreetsSFLocations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C85596189D9F2300DC11CB /* Debug */,
+				30C85597189D9F2300DC11CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30C85598189D9F2300DC11CB /* Build configuration list for PBXNativeTarget "StreetsSFLocationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C85599189D9F2300DC11CB /* Debug */,
+				30C8559A189D9F2300DC11CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30C8555B189D9F2300DC11CB /* Project object */;
+}
